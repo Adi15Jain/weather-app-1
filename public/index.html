@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Weather App - AI Engineer Assessment</title>
+        <link
+            rel="icon"
+            href="https://www.flaticon.com/free-icon/weather-app_7133364"
+            type="image/png"
+        />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>🌤️ Weather App</h1>
+                <p>Check Real Time Weather of your Location</p>
+            </header>
+
+            <div class="search-section">
+                <div class="input-group">
+                    <div class="autocomplete-container">
+                        <input
+                            type="text"
+                            id="locationInput"
+                            placeholder="Start typing: city, landmark, zip code..."
+                        />
+                        <div
+                            id="autocompleteDropdown"
+                            class="autocomplete-dropdown hidden"
+                        ></div>
+                    </div>
+                    <button id="searchBtn">Search</button>
+                    <button id="locationBtn">Use My Location</button>
+                </div>
+
+                <div id="loading" class="loading hidden">
+                    🌀 Loading weather data...
+                </div>
+                <div id="error" class="error hidden"></div>
+            </div>
+
+            <div id="weatherDisplay" class="weather-display hidden">
+                <!-- Current Weather -->
+                <div id="currentWeather" class="current-weather">
+                    <h2 id="locationName">Location</h2>
+                    <div class="main-weather">
+                        <img id="weatherIcon" src="" alt="Weather icon" />
+                        <div class="temp-info">
+                            <span id="temperature">--°C</span>
+                            <span id="description">--</span>
+                        </div>
+                    </div>
+                    <div class="weather-details">
+                        <div class="detail-item">
+                            <span>Feels like:</span>
+                            <span id="feelsLike">--°C</span>
+                        </div>
+                        <div class="detail-item">
+                            <span>Humidity:</span>
+                            <span id="humidity">--%</span>
+                        </div>
+                        <div class="detail-item">
+                            <span>Wind:</span>
+                            <span id="windSpeed">-- m/s</span>
+                        </div>
+                        <div class="detail-item">
+                            <span>Pressure:</span>
+                            <span id="pressure">-- hPa</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 5-Day Forecast -->
+                <div id="forecast" class="forecast-section">
+                    <h3>5-Day Forecast</h3>
+                    <div id="forecastContainer" class="forecast-container">
+                        <!-- Forecast items will be populated here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
