@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Weather App - AI Engineer Assessment</title>
+        <title>Weather App 2</title>
         <link
             rel="icon"
             href="https://www.flaticon.com/free-icon/weather-app_7133364"
@@ -12,6 +12,13 @@
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
+        <div class="video-background">
+            <video autoplay muted loop playsinline id="bg-video">
+                <source src="background-video.mp4" type="video/mp4" />
+            </video>
+            <div class="video-overlay"></div>
+        </div>
+
         <div class="container">
             <header>
                 <h1>🌤️ Weather App</h1>
@@ -80,6 +87,126 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <!-- Database connection for records -->
+        <div class="records-section" id="recordsSection" style="display: none">
+            <div class="container">
+                <header
+                    style="
+                        background: linear-gradient(
+                            135deg,
+                            #667eea 0%,
+                            #764ba2 25%,
+                            #f093fb 50%,
+                            #ff9a9e 75%,
+                            #fecfef 100%
+                        );
+                    "
+                >
+                    <h2>🗄️ Weather Records Manager</h2>
+                    <p>Manage your saved weather searches</p>
+                </header>
+
+                <div
+                    class="records-controls"
+                    style="padding: 20px; background: #f8f9fa"
+                >
+                    <div class="input-group">
+                        <button id="saveCurrentBtn" class="btn-primary">
+                            💾 Save Current Weather
+                        </button>
+                        <button id="viewRecordsBtn" class="btn-secondary">
+                            📋 View All Records
+                        </button>
+                        <button id="exportJsonBtn" class="btn-success">
+                            📥 Export JSON
+                        </button>
+                        <button id="exportCsvBtn" class="btn-success">
+                            📊 Export CSV
+                        </button>
+                    </div>
+
+                    <!-- Save Weather Form -->
+                    <div
+                        id="saveWeatherForm"
+                        class="save-form"
+                        style="
+                            display: none;
+                            margin-top: 20px;
+                            padding: 20px;
+                            background: white;
+                            border-radius: 10px;
+                        "
+                    >
+                        <h3>Save Weather Search</h3>
+                        <div class="form-group">
+                            <label>Location:</label>
+                            <input
+                                type="text"
+                                id="saveLocation"
+                                placeholder="Enter location"
+                            />
+                        </div>
+                        <div class="form-group">
+                            <label>Start Date:</label>
+                            <input type="date" id="startDate" />
+                        </div>
+                        <div class="form-group">
+                            <label>End Date:</label>
+                            <input type="date" id="endDate" />
+                        </div>
+                        <div class="form-group">
+                            <label>Tags (comma-separated):</label>
+                            <input
+                                type="text"
+                                id="tags"
+                                placeholder="e.g., vacation, business, landmark"
+                            />
+                        </div>
+                        <div class="form-group">
+                            <label>
+                                <input type="checkbox" id="includeExtra" />
+                                Include additional data (videos, maps)
+                            </label>
+                        </div>
+                        <div class="form-actions">
+                            <button id="confirmSave" class="btn-primary">
+                                💾 Save Record
+                            </button>
+                            <button id="cancelSave" class="btn-secondary">
+                                ❌ Cancel
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Records Display -->
+                <div
+                    id="recordsDisplay"
+                    class="records-display"
+                    style="padding: 20px"
+                ></div>
+            </div>
+        </div>
+
+        <!-- Add toggle button to your main weather app -->
+        <div style="position: fixed; top: 20px; right: 20px; z-index: 1000">
+            <button
+                id="toggleRecords"
+                style="
+                    background: linear-gradient(135deg, #667eea, #764ba2);
+                    color: white;
+                    border: none;
+                    padding: 12px 20px;
+                    border-radius: 25px;
+                    cursor: pointer;
+                    font-weight: bold;
+                    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+                    transition: all 0.3s ease;
+                "
+            >
+                📊 Records
+            </button>
         </div>
 
         <script src="script.js"></script>
