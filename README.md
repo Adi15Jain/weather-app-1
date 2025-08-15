@@ -2,11 +2,6 @@
 
 A sophisticated full-stack weather application built with modern web technologies, featuring real-time weather data, intelligent location search, CRUD operations, and advanced data management capabilities.
 
-## 📸 Screenshots
-
-![WeatherScope Main Interface](https://via.placeholder.com/800x400?text=WeatherScope+Main+Interface)
-![Records Management](https://via.placeholder.com/800x400?text=Records+Management+Dashboard)
-
 ## 🌟 Features
 
 ### 🌍 Core Weather Features
