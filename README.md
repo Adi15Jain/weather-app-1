@@ -548,8 +548,8 @@ The README includes proper markdown formatting, code blocks, tables, and all the
 
 For support, questions, or contributions:
 
-- **GitHub Issues**: [Report bugs or request features](https://github.com/yourusername/weatherscope/issues)
-- **Email**: your.email@example.com
+- **GitHub Issues**: [Report bugs or request features](https://github.com/Adi15Jain/weather-app/issues)
+- **Email**: adi1510jain@gmail.com
 - **Documentation**: This README and inline code comments
 - **Community**: Join discussions in GitHub Discussions
 
@@ -559,7 +559,7 @@ For support, questions, or contributions:
 
 **Built with ❤️ for advanced full-stack development demonstration**
 
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/weatherscope.svg?style=social&label=Star)](https://github.com/yourusername/weatherscope)
-[![GitHub forks](https://img.shields.io/github/forks/yourusername/weatherscope.svg?style=social&label=Fork)](https://github.com/yourusername/weatherscope/fork)
+[![GitHub stars](https://img.shields.io/github/stars/Adi15Jain/weather-app.svg?style=social&label=Star)](https://github.com/Adi15Jain/weather-app)
+[![GitHub forks](https://img.shields.io/github/forks/Adi15Jain/weather-app.svg?style=social&label=Fork)](https://github.com/Adi15Jain/weather-app/fork)
 
 </div>
