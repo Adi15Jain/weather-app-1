@@ -492,8 +492,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-text
-
 ## 🙏 Acknowledgments
 
 - **OpenWeatherMap** for comprehensive weather data API
@@ -508,47 +506,7 @@ text
 
 For support, questions, or contributions:
 
-- **GitHub Issues**: [Report bugs or request features](https://github.com/yourusername/weatherscope/issues)
-- **Email**: your.email@example.com
-- **Documentation**: This README and inline code comments
-- **Community**: Join discussions in GitHub Discussions
-
----
-
-<div align="center">
-
-**Built with ❤️ for advanced full-stack development demonstration**
-
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/weatherscope.svg?style=social&label=Star)](https://github.com/yourusername/weatherscope)
-[![GitHub forks](https://img.shields.io/github/forks/yourusername/weatherscope.svg?style=social&label=Fork)](https://github.com/yourusername/weatherscope/fork)
-
-</div>
-Save this as README.md in your project root directory. This comprehensive markdown file includes:
-
-✅ Professional Structure - Clear sections with proper headings
-✅ Visual Elements - Emojis, badges, and formatting for readability
-✅ Complete Documentation - Installation, usage, API reference
-✅ Assessment Requirements - Clear compliance with both assessments
-✅ Technical Details - Architecture, deployment, troubleshooting
-✅ Professional Standards - License, contributing guidelines, support info
-
-The README includes proper markdown formatting, code blocks, tables, and all the information needed for users and contributors to understand and work with your WeatherScope project! 🚀
-
-## 🙏 Acknowledgments
-
-- **OpenWeatherMap** for comprehensive weather data API
-- **Geocode.maps.co** for reliable geocoding services
-- **MongoDB** for robust database solutions
-- **Font Awesome** for beautiful iconography
-- **Inter Font** for modern typography
-- **YouTube Data API** for multimedia content integration
-- **OpenStreetMap** community for mapping data
-
-## 📞 Support
-
-For support, questions, or contributions:
-
-- **GitHub Issues**: [Report bugs or request features](https://github.com/Adi15Jain/weather-app/issues)
+- **GitHub Issues**: [Report bugs or request features](https://github.com/Adi15Jain/weather-app-1/issues)
 - **Email**: adi1510jain@gmail.com
 - **Documentation**: This README and inline code comments
 - **Community**: Join discussions in GitHub Discussions
@@ -559,7 +517,7 @@ For support, questions, or contributions:
 
 **Built with ❤️ for advanced full-stack development demonstration**
 
-[![GitHub stars](https://img.shields.io/github/stars/Adi15Jain/weather-app.svg?style=social&label=Star)](https://github.com/Adi15Jain/weather-app)
-[![GitHub forks](https://img.shields.io/github/forks/Adi15Jain/weather-app.svg?style=social&label=Fork)](https://github.com/Adi15Jain/weather-app/fork)
+[![GitHub stars](https://img.shields.io/github/stars/Adi15Jain/weather-app-1.svg?style=social&label=Star)](https://github.com/Adi15Jain/weather-app-1)
+[![GitHub forks](https://img.shields.io/github/forks/Adi15Jain/weather-app-1.svg?style=social&label=Fork)](https://github.com/Adi15Jain/weather-app-1/fork)
 
 </div>
